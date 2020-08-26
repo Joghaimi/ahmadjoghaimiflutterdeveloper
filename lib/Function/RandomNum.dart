@@ -3,5 +3,5 @@ import 'dart:math';
 
 int RandomNum() {
   var rng = new Random();
-  return rng.nextInt(1000);
+  return (rng.nextInt(900)+100);
 }

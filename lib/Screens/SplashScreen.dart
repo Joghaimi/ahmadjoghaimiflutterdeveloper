@@ -77,7 +77,7 @@ class _splash_screenState extends State<splash_screen> {
   Future<dynamic> OpenNewView() async {
 
     GetAlotOfImage();
-    return Future.delayed(const Duration(milliseconds: 5000), () {
+    return Future.delayed(const Duration(milliseconds: 6000), () {
       setState(() {
         Navigator.pushReplacementNamed(context, home.id);
       });
